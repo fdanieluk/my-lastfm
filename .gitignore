@@ -1,2 +1,4 @@
 data/
-api.json
+credentials.json
+*.egg-info/
+.vscode/

@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 pylast = "*"
+jupyter = "*"
+mylastfm = {editable = true,path = "."}
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
