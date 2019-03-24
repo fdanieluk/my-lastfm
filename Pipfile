@@ -9,6 +9,7 @@ verify_ssl = true
 pylast = "*"
 jupyter = "*"
 mylastfm = {editable = true,path = "."}
+pandas = "*"
 
 [requires]
 python_version = "3.7"
