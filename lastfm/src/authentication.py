@@ -5,7 +5,7 @@ from lastfm import ROOT
 
 
 def authenticate():
-    with open(ROOT + 'credentials.json') as f:
+    with open(ROOT + '/credentials.json') as f:
         credentials = json.load(f)
 
     network = LastFMNetwork(api_key=credentials['API_key'],
